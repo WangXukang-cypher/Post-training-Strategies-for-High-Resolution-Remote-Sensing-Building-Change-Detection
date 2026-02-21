@@ -1,0 +1,11 @@
+用法示例（多数据集训练，val/test 仍用单个 root）：
+
+
+python scripts/train_BCD.py ^
+  --train_roots D:\data\LEVIR-CD,D:\data\WHU-CD ^
+  --val_roots D:\data\LEVIR-CD,D:\data\WHU-CD ^
+  --test_roots D:\data\LEVIR-CD,D:\data\WHU-CD ^
+  --num_domains 2 ^
+  --moe_aux_w 1.0
+
+
